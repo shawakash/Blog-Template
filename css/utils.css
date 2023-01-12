@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+:root{
+
+    --main-bg-color: rgb(0, 0, 0);
+    --font1:'Quicksand', sans-serif;
+    --font2:'Montserrat Alternates', sans-serif;;
+
+}
+
+.m-auto{
+
+    margin: auto;
+
+}
+
+.m-y{
+    padding: 30px 0;
+}
+
+.max-width1{
+
+    max-width: 80vw;
+
+}
+
+.max-width2{
+
+    max-width: 60vw;
+
+}
+
+.form-input{
+
+    padding: 2px 7px;
+    margin: 0 7px;
+    border: 0.5px outset darkgrey;
+    font-family: var(--font2);
+    border-radius: 40px;
+
+}
+
+.btn{
+
+    padding: 2px 15px;
+    border-radius: 10px;
+    border: 0px outset;
+    font-family: var(--font2);
+    background-color: hsl(0, 7%, 89%);
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+
+}
+
+.btn:hover{
+
+    color: white;
+    background-color: var(--main-bg-color);
+    padding: 3px 11px;
+
+}
+
+.contact-content input, textarea{
+
+    width: 40vw;
+    padding: 5px 10px;
+    margin: 15px 10px 0;
+    font-family: var(--font2);
+    border-radius: 40px;
+
+}
+
+.icon-space{
+
+    margin: 2.5px;
+    padding: 2.5px;
+    
+}
+
+.a{
+
+    color: black;
+    text-decoration: none;
+    
+}

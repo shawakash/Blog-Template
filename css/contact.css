@@ -1,0 +1,54 @@
+
+.contact-content{
+
+    height: 500px;
+    /* background-color: antiquewhite; */
+    line-height: 2;
+    position: relative;
+    font-family: var(--font2);
+    
+
+}
+
+.contact-content hr{
+
+    margin: -6px 0;
+}
+
+.contact-content h2{
+
+    padding:20px 20px;
+}
+
+.contact-content::after{
+
+    z-index: -3;
+    margin: 35px 0;
+    top: 0;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: inherit;
+    background-image: url("../img/11.svg");
+    opacity: 0.2;
+    border-radius: 15px;
+    
+}
+
+.form-input{
+
+    border: none;
+
+}
+
+.form-input textarea{
+
+    padding: 10px 20px;
+
+}
+
+.footer-hr{
+
+    margin-top: 20px;
+
+}
